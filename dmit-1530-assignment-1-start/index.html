@@ -14,6 +14,9 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/styles.css">
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
 
 </head>
 <body>
@@ -29,69 +32,84 @@
         </nav>
     </header>
     <main>
-        <section class="sustainability">
-            <div class="text">
+        <section class="hero">
+            <div class="hero-container">
                 <h2>It all starts with our commitment to sustainability.</h2>
                 <p>At Etudes, our journey toward architectural excellence begins with a firm commitment to innovation and sustainability. We believe that great design not only enhances aesthetics but also integrates seamlessly with the environment and promotes responsible living. Join us in shaping spaces that not only  inspire but also contribute positively to the world around us.</p>
-            </div>
-
-            <button class="about">About Us</button>
-
-            <img src="img/vi.webp" alt="Sustainable Architecture">
-
+                <button>About Us</button>
+                <img class="hero-img" src="img/vi.webp" alt="Sustainable Architecture">
+            </hero-container> 
         </section>
 
-        <section class="spaces">
-            <h2>An unparalleled passion for creating spaces.</h2>
-            <p>At Etudes, we approach every project with creativity, expertise, and a  commitment to excellence. Whether residential or commercial, we are  dedicated to bringing your architectural aspirations to fruition,  exceeding expectations every step of the way. Our comprehensive suite of professional services caters to a diverse clientele, ranging from homeowners to commercial developers.</p>
-            
-            <h3>Customized Designs</h3>
-            <p>From conceptualization to execution, we specialize in creating bespoke  architectural solutions that reflect your unique vision and lifestyle  preferences.</p>
-
-            <h3>Interior Harmony</h3>
-            <p>Seamlessly blending interior aesthetics with architectural design, we  create spaces that not only look stunning but also function harmoniously  with your lifestyle and needs.</p>
-
-            <h3>Innovative Solutions</h3>
-            <p>Leveraging the latest advancements in technology and materials, we bring  innovative solutions to every project, enhancing functionality,  durability, and aesthetic appeal.</p>
-
-            <h3>Sustainable Practices</h3>
-            <p>Our commitment to eco-conscious design encompasses the integration of  renewable materials, energy-efficient systems, and sustainable building  practices for a greener future.</p>
-
-            <h3>Community Engagement</h3>
-            <p>Beyond structures, we design spaces that foster community interaction,  promote inclusivity, and contribute positively to the social fabric of  neighborhoods and cities.</p>
-
-            <h3>Project Management</h3>
-            <p>With a keen eye for detail and efficient coordination, we oversee every  aspect of your project, ensuring timely delivery and impeccable quality  from start to finish.</p>
-
+        <section class="services">
+            <div class="services-container">
+                <h2>An unparalleled passion for creating spaces.</h2>
+                <p>At Etudes, we approach every project with creativity, expertise, and a  commitment to excellence. Whether residential or commercial, we are  dedicated to bringing your architectural aspirations to fruition,  exceeding expectations every step of the way. Our comprehensive suite of professional services caters to a diverse clientele, ranging from homeowners to commercial developers.</p>
+            </div>            
+            <div class="services-details">
+                <div class="service">
+                    <h3>Customized Designs</h3>
+                    <p>From conceptualization to execution, we specialize in creating bespoke  architectural solutions that reflect your unique vision and lifestyle  preferences.</p>
+                </div>
+                <div class="service">
+                    <h3>Interior Harmony</h3>
+                    <p>Seamlessly blending interior aesthetics with architectural design, we create spaces that not only look stunning but also function harmoniously with your lifestyle and needs.</p>
+                </div>
+                <div class="service">
+                    <h3>Innovative Solutions</h3>
+                    <p>Leveraging the latest advancements in technology and materials, we bring innovative solutions to every project, enhancing functionality, durability, and aesthetic appeal.</p>
+                </div>
+                <div class="service">
+                    <h3>Sustainable Practices</h3>
+                    <p>Our commitment to eco-conscious design encompasses the integration of renewable materials, energy-efficient systems, and sustainable building practices for a greener future.</p>
+                </div>
+                <div class="service">
+                    <h3>Community Engagement</h3>
+                    <p>Beyond structures, we design spaces that foster community interaction, promote inclusivity, and contribute positively to the social fabric of neighborhoods and cities.</p>
+                </div>
+        
+                <div class="service">
+                    <h3>Project Management</h3>
+                    <p>With a keen eye for detail and efficient coordination, we oversee every aspect of your project, ensuring timely delivery and impeccable quality from start to finish.</p>
+                </div>
+            </div>
         </section>
 
         <section class="quote">
-            <blockquote>You saved us thousands of hours of work and unlocked insights we never thought possible.</blockquote>
-            <p class="quote-name">Annie Setter</p>
-            <p class="quote-role">CEO, Greyprint</p>
+            <div class="quote-container">
+                <blockquote>You saved us thousands of hours of work and unlocked insights we never thought possible.</blockquote>
+                <p class="quote-name">Annie Setter</p>
+                <p class="quote-role">CEO, Greyprint</p>
+            </div>
         </section>
 
         <section class="world">
             <h2>Your world, redesigned.</h2>
             <p>Our firm, rooted in Canada's rich heritage of design and craftsmanship, offers a diverse range of services tailored to both residential and  commercial projects. Explore how our expertise can transform your vision into extraordinary spaces that inspire, elevate, and endure.</p>
-
             <section class="residential">
-                <h3>Residential Architecture</h3>
-                <p>Custom Home Design: Crafting bespoke homes that reflect your style, preferences, and functional requirements.</p>
-                <p>Home Extensions: Seamlessly blending new additions with the existing structure, maximizing space and functionality.</p>
-                <p>Sustainable Design: Integrating eco-friendly practices and technologies to create energy-efficient, environmentally conscious homes.</p>
+                <div class="residential-text">
+                    <h3>Residential Architecture</h3>
+                    <ul>
+                        <li><strong>Custom Home Design</strong>: Crafting bespoke homes that reflect your style, preferences, and functional requirements.</li>
+                        <li><strong>Home Extensions</strong>: Seamlessly blending new additions with the existing structure, maximizing space and functionality.</li>
+                        <li><strong>Sustainable Design</strong>: Integrating eco-friendly practices and technologies to create energy-efficient, environmentally conscious homes.</li>
+                    </ul>
+                </div>
                 <img src="img/iii.webp" alt="Residential Architecture">
             </section>
-
             <section class="commercial">
-                <h3>Commercial Architecture</h3>
-                <p>Mixed-Use Developments: Integrating diverse functionalities seamlessly within a single complex.</p>
-                <p>Community & Public Spaces: Designing public facilities and spaces that enrich communities and promote social interaction.</p>
-                <p>Adaptive Reuse: Transforming existing structures into vibrant, functional spaces, preserving heritage and sustainability.</p>
+                <div class="commercial-text">
+                    <h3>Commercial Architecture</h3>
+                    <ul>
+                        <li><strong>Mixed-Use Developments</strong>: Integrating diverse functionalities seamlessly within a single complex.</li>
+                        <li><strong>Community & Public Spaces</strong>: Designing public facilities and spaces that enrich communities and promote social interaction.</li>
+                        <li><strong>Adaptive Reuse</strong>: Transforming existing structures into vibrant, functional spaces, preserving heritage and sustainability.</li>
+                    </ul>
+                </div>
                 <img src="img/ii.webp" alt="Commercial Architecture">
             </section>
-
         </section>
+
         <section class="subscribe">
             <h2>Join 900+ subscribers</h2>
             <p>Stay in the loop with everything you need to know.</p>
